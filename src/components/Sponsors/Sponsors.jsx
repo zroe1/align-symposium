@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./Sponsors.css";
 import uchicago from "./uchicago.png";
-import hours from "./80000.webp";
+// import hours from "./80000.webp";
 import ea from "./ea.png";
 
 const Sponsors = () => {
