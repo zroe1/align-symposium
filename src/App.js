@@ -4,6 +4,8 @@ import About from "./components/About/About";
 import HowWeAreDifferent from "./components/HowWeAreDifferent/HowWeAreDifferent";
 import FAQ from "./components/FAQ/FAQ";
 import Footer from "./components/Footer/Footer";
+import Sponsors from "./components/Sponsors/Sponsors";
+import Register from "./components/Register/Register";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Header></Header>
       <About></About>
       <HowWeAreDifferent></HowWeAreDifferent>
+      <Register></Register>
+      <Sponsors></Sponsors>
       <FAQ></FAQ>
       <Footer></Footer>
     </div>

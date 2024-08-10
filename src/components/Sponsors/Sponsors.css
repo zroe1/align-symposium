@@ -1,0 +1,95 @@
+.sponsors-container {
+    /* background-color: #ffffff; */
+    background-color: #8d0f0f;
+    padding: 40px;
+    /* margin-top: 30px; */
+}
+
+.sponsors-title {
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sponsors-divider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sponsors-divider {
+    width: 250px;
+    height: 2px;
+    background-color: #8d0f0f;
+}
+
+.sponsors-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.sponsor-logo img {
+    height: 80px;
+}
+
+.sponsors-thanks {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: "Merriweather", serif;
+    text-align: center;
+    color: white;
+}
+
+.sponsors-thanks p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+
+
+@media (max-width: 768px) {
+    .sponsors-logos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.fade-element {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .fade-element.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Add some delay to stagger the animations */
+  .sponsors-logos .sponsor-logo:nth-child(1) {
+    transition-delay: 0.1s;
+  }
+  
+  .sponsors-logos .sponsor-logo:nth-child(2) {
+    transition-delay: 0.2s;
+  }
+  
+  .sponsors-logos .sponsor-logo:nth-child(3) {
+    transition-delay: 0.3s;
+  }
+  
+  .sponsors-logos .sponsor-logo:nth-child(4) {
+    transition-delay: 0.4s;
+  }
+  
+  .sponsors-thanks {
+    transition-delay: 0.5s;
+  }
