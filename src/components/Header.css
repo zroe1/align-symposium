@@ -1,0 +1,79 @@
+.header-container {
+    position: relative;
+    width: 100%;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.header-text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-text {
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    /* font-size: 50px; */
+    font-size: 3.5vw;
+    color: #8d0f0f;
+    margin: 0.5rem;
+}
+
+.header-description {
+    font-family: "Merriweather", serif;
+    width: 60%;
+    text-align: center;
+    font-weight: 200;
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+.header-button {
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 12px 24px;
+    border: 1px solid #4a4a4a;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(74, 74, 74, 0.2);
+    transition: all 0.3s ease;
+}
+
+.header-button:hover {
+    color: #2a2a2a;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* transform: translateY(-2px); */
+}
+
+.header-button:hover::before {
+    left: 100%;
+}
