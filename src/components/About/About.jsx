@@ -15,10 +15,9 @@ const About = () => {
           undergraduate students in the field of AI safety. Nestled in the heart of Chicago's
           intellectual hub, participants will engage in rigorous discussions, attend expert-led
           talks, and collaborate on refining their models of AI's transformative potential. Our
-          venue offers a perfect blend of cutting-edge facilities and an inspiring academic
-          atmosphere, setting the stage for breakthrough insights and meaningful connections. Join
-          us for this unique opportunity to shape the future of AI safety alongside peers and
-          industry leaders.
+          venue offers an inspiring academic atmosphere, setting the stage for breakthrough insights
+          and meaningful connections. Join us for this unique opportunity to shape the future of AI
+          safety alongside peers and industry leaders.
         </p>
       </div>
     </div>
