@@ -33,10 +33,10 @@ const About = () => {
 
   return (
     <div className="about-container">
-      <h2 className="about-title fade-element" id="about-mobile-header">
+      <h2 className="about-title" id="about-mobile-header">
         About the event
       </h2>
-      <div className="marroon-divider fade-element" id="about-divider-mobile"></div>
+      <div className="marroon-divider" id="about-divider-mobile"></div>
       <div className="about-img-container">
         <img src={forum} alt="Forum" className="about-img fade-element" />
       </div>
