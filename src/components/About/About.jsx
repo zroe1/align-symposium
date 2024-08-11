@@ -37,8 +37,8 @@ const About = () => {
         About the event
       </h2>
       <div className="marroon-divider" id="about-divider-mobile"></div>
-      <div className="about-img-container">
-        <img src={forum} alt="Forum" className="about-img fade-element" />
+      <div className="about-img-container fade-element">
+        <img src={forum} alt="Forum" className="about-img" />
       </div>
       <div className="about-text-div">
         <h2 className="about-title fade-element" id="about-desktop-header">

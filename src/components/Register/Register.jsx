@@ -32,8 +32,8 @@ const Register = () => {
 
   return (
     <div className="registration-container">
-      <h2 className="registration-title fade-element">Register Your Interest</h2>
-      <div className="registration-divider-container fade-element">
+      <h2 className="registration-title">Register Your Interest</h2>
+      <div className="registration-divider-container">
         <div className="registration-divider"></div>
       </div>
       <div className="registration-content">

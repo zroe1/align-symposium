@@ -32,8 +32,8 @@ const HowWeAreDifferent = () => {
 
   return (
     <div className="how-we-are-different-container">
-      <h2 className="how-we-are-different-title fade-element">How We Are Different</h2>
-      <div className="divider-container fade-element">
+      <h2 className="how-we-are-different-title">How We Are Different</h2>
+      <div className="divider-container">
         <div className="marroon-divider"></div>
       </div>
       <ol>
