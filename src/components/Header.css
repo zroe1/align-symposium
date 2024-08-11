@@ -118,3 +118,9 @@
         display: block;
     }
 }
+
+@media (max-width: 468px) {
+    .header-description {
+        font-size: 14px;
+    }
+}

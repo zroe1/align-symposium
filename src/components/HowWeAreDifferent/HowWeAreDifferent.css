@@ -68,3 +68,19 @@
   .how-we-are-different-container ol li:nth-child(3) {
     transition-delay: 0.3s;
   }
+
+@media (max-width: 768px) {
+    .how-we-are-different-container {
+        padding: 30px;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+
+    .how-we-are-different-container ol {
+        padding-left: 0;  /* Resets the left padding of the entire list */
+    }
+
+    .how-we-are-different-container li {
+        font-size: 16px;
+    }
+}
