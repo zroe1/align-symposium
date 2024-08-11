@@ -33,10 +33,18 @@ const About = () => {
 
   return (
     <div className="about-container">
-      <img src={forum} alt="Forum" className="about-img fade-element" />
+      <h2 className="about-title fade-element" id="about-mobile-header">
+        About the event
+      </h2>
+      <div className="marroon-divider fade-element" id="about-divider-mobile"></div>
+      <div className="about-img-container">
+        <img src={forum} alt="Forum" className="about-img fade-element" />
+      </div>
       <div className="about-text-div">
-        <h2 className="about-title fade-element">About the event</h2>
-        <div className="marroon-divider fade-element"></div>
+        <h2 className="about-title fade-element" id="about-desktop-header">
+          About the event
+        </h2>
+        <div className="marroon-divider fade-element" id="about-divider-desktop"></div>
         <p className="about-text fade-element">
           The Chicago Symposium on Transformative AI is an exclusive, two-day event taking place on
           November 9-10, 2024, at the prestigious David Rubenstein Forum at the University of
