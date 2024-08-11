@@ -45,7 +45,9 @@ const Register = () => {
         <p className="fade-element">
           Don't miss this opportunity to be part of this exclusive event!
         </p>
-        <a href="#interest-form-link" className="interest-button fade-element">
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeawF6v2f9KHdGdV4mZW_coewp26g9eQWOtQYOtBr8h8ltmBg/viewform"
+          className="interest-button fade-element">
           Fill Out Interest Form
         </a>
       </div>

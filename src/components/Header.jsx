@@ -28,7 +28,9 @@ const Header = () => {
           think rigorously about what to expect and what needs doing if AI starts the next
           industrial revolution.
         </p>
-        <a href="#interest-form" className="header-button">
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeawF6v2f9KHdGdV4mZW_coewp26g9eQWOtQYOtBr8h8ltmBg/viewform"
+          className="header-button">
           Fill out our interest form
         </a>
       </div>
