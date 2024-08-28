@@ -2,14 +2,14 @@ import React, { useEffect, useRef } from "react";
 import "./Sponsors.css";
 import uchicago from "./uchicago.png";
 // import hours from "./80000.webp";
-import ea from "./ea.png";
+import ev from "./ev.png";
 
 const Sponsors = () => {
   const observerRef = useRef(null);
 
   const sponsors = [
-    { name: "TechCorp", logo: uchicago },
-    { name: "Future Systems", logo: ea },
+    { name: "x-lab", logo: uchicago },
+    { name: "effective ventures", logo: ev },
     // { name: "AI Innovations", logo: hours },
     // { name: "Data Dynamics", logo: "/api/placeholder/200/100" },
   ];
