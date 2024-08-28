@@ -20,22 +20,12 @@ const FAQ = () => {
     {
       question: "Who can attend the Chicago Symposium on Transformative AI?",
       answer:
-        "The symposium is an exclusive event for 30-40 of the most promising undergraduate students in the field of AI safety. Attendees are carefully selected based on their engagement and potential in the field, including students recommended by advisors at 80,000 Hours and those who have undertaken research projects or made significant steps towards careers in AI safety.",
-    },
-    {
-      question: "What makes this symposium unique?",
-      answer:
-        "Our symposium stands out due to three key factors: 1) Pre-conference preparation, where attendees submit written memos outlining their current models of transformative AI; 2) A focus on challenging assumptions, creating an environment where participants actively question their own and others' predictions about AI's future; and 3) A balanced approach to project discussions, limiting future planning to maintain open-minded exploration.",
+        "The symposium is an exclusive event for 30-40 of the most promising undergraduate students in the field of AI safety. Thus, we will select for applicants who have taken steps towards starting a career in AI Safety.",
     },
     {
       question: "What is the purpose of the pre-conference memos?",
       answer:
         "The pre-conference memos serve to clarify attendees' current models of transformative AI. This preparation encourages self-reflection and readiness for constructive dialogue. It doesn't have to be perfect, but it should represent the participant's current belief state and demonstrate a willingness to be challenged.",
-    },
-    {
-      question: "How will the symposium improve attendees' understanding of AI safety?",
-      answer:
-        "The symposium aims to improve the robustness and rigor of attendees' models of AI alignment. This includes exploring how transformative AI will develop, its impact on the world, and what actions need to be taken. We believe that refining these models will lead to better project ideas and more effective work in AI safety.",
     },
     {
       question: "What kind of speakers can attendees expect?",
@@ -45,7 +35,7 @@ const FAQ = () => {
     {
       question: "Is there a cost to attend the symposium?",
       answer:
-        "While we aim to be generous with travel expenses (subject to funding constraints), we are considering implementing a modest attendance fee. This is to ensure commitment from participants without overly restricting the pool of attendees. The exact cost structure is still being determined, and we welcome feedback on this aspect.",
+        "While we aim to be generous with travel expenses (subject to funding constraints), we will not cover all attendee expenses. This is to ensure commitment from participants. ",
     },
     {
       question: "How will the success of the symposium be measured?",

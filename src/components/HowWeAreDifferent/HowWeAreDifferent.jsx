@@ -38,19 +38,18 @@ const HowWeAreDifferent = () => {
       </div>
       <ol>
         <li className="fade-element">
-          <b>Pre-Conference Preparation:</b> Attendees submit written memos outlining their current
-          models of transformative AI, encouraging self-reflection and readiness for constructive
-          dialogue.
+          <b>Pre-Conference Preparation:</b> We will have attendees submit written memos outlining
+          their current models of transformative AI, encouraging self-reflection and readiness for
+          constructive dialogue. These will not be project ideas; we don’t want the focus to be
+          defending priors; rather, we want participants to freely explore ideas while having a
+          tangible object to center discussions.
         </li>
         <li className="fade-element">
-          <b>Focus on Challenging Assumptions:</b> We create a unique environment where participants
-          actively question their own and others' predictions about the future of AI, fostering
-          intellectual growth and deeper understanding.
-        </li>
-        <li className="fade-element">
-          <b>Balanced Approach to Project Discussion:</b> While we provide space to examine past and
-          ongoing projects in detail, we intentionally limit future planning to prevent attachment
-          to specific ideas and maintain open-minded exploration.
+          <b>Focus on Challenging Assumptions:</b> We will foster a unique environment where
+          participants actively question their own and others' predictions about the future of AI.
+          We will select for attendees who are both knowledgeable about transformative AI and also
+          serious about growing during the course of the conference; in inviting speakers and
+          designing programming, we will further emphasize this goal.
         </li>
       </ol>
     </div>

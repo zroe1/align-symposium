@@ -46,20 +46,18 @@ const About = () => {
         </h2>
         <div className="marroon-divider fade-element" id="about-divider-desktop"></div>
         <p className="about-text fade-element">
-          The Chicago Symposium on Transformative AI is an exclusive, two-day event taking place on
-          November 9-10, 2024, at the prestigious David Rubenstein Forum at the University of
-          Chicago. This carefully curated symposium brings together 30-40 of the most promising
-          undergraduate students in the field of AI safety.
+          The Chicago Symposium on Transformative AI is a two-day event taking place on November
+          9-10, 2024, at the David Rubenstein Forum at the University of Chicago. We invite 30-40 of
+          the most promising undergraduate students in the field of AI safety. Over a weekend,
+          students will be immersed in an intellectually vibrant and professional atmosphere, hear
+          from speakers in technical and governance, and collaborate with like-minded peers.
         </p>
         <p className="about-text fade-element">
-          Nestled in the heart of Chicago's intellectual hub, participants will engage in rigorous
-          discussions, attend expert-led talks, and collaborate on refining their models of AI's
-          transformative potential.
-        </p>
-        <p className="about-text fade-element">
-          Our venue offers an inspiring academic atmosphere, setting the stage for breakthrough
-          insights and meaningful connections. Join us for this unique opportunity to shape the
-          future of AI safety alongside peers and industry leaders.
+          Our belief is that students committed to work on AI Safety should think independently
+          about what transformative AI will look like and come up with their own strategies without
+          committing too early to existing proposals. Ultimately, our theory of change is that
+          putting high-context students in the same room with a focus on developing mental models
+          and challenging assumptions will substantially increase effectiveness of future efforts.
         </p>
       </div>
     </div>

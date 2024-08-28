@@ -37,17 +37,15 @@ const Register = () => {
         <div className="registration-divider"></div>
       </div>
       <div className="registration-content">
-        <p className="fade-element">
-          While it's too early to register for the Chicago Symposium on Transformative AI, we
-          encourage you to express your interest now. By filling out our interest form, you'll be
-          among the first to know when applications open.
+        <p className="fade-element" style={{ fontSize: "18px" }}>
+          While it's too early to apply for the Chicago Symposium on Transformative AI, we encourage
+          you to express your interest now. By filling out our interest form, you'll be among the
+          first to know when applications open.
         </p>
-        <p className="fade-element">
+        <p className="fade-element" style={{ fontSize: "18px", marginBottom: "25px" }}>
           Don't miss this opportunity to be part of this exclusive event!
         </p>
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeawF6v2f9KHdGdV4mZW_coewp26g9eQWOtQYOtBr8h8ltmBg/viewform"
-          className="interest-button fade-element">
+        <a href="https://forms.gle/effWSChju3fvCmAy9" className="interest-button fade-element">
           Fill Out Interest Form
         </a>
       </div>

@@ -56,10 +56,8 @@ const Sponsors = () => {
       <div className="sponsors-thanks fade-element">
         {/* <h3>Special Thanks</h3> */}
         <p>
-          We would like to also like to express our deepest gratitude to the following individuals
-          for their invaluable support and contributions: Matt Reardon (80k), Tzu Kit Chan (SAIA),
-          Peter Gabauer (SPAR), Gabriel Wu (AISST), Nikola (AISST), Linda (AI Safety Camp), Agus
-          (OASIS)
+          We would like to also like to express our deepest gratitude to Matt Reardon (80,000 Hours)
+          and Tzu Kit Chan (SAIA) for their invaluable support and mentoring.
         </p>
       </div>
     </div>
