@@ -47,11 +47,12 @@ const Sponsors = () => {
         <div className="sponsors-divider"></div>
       </div>
       <div className="sponsors-logos">
-        {sponsors.map((sponsor, index) => (
-          <div key={index} className="sponsor-logo fade-element">
-            <img src={sponsor.logo} alt={`${sponsor.name} logo`} />
-          </div>
-        ))}
+        <div key={"x-lab"} className="sponsor-logo fade-element" id="x-lab-logo">
+          <img src={uchicago} alt={`x-lab logo`} />
+        </div>
+        <div key={"effective ventures"} className="sponsor-logo fade-element">
+          <img src={ev} alt={`effective ventures`} />
+        </div>
       </div>
       <div className="sponsors-thanks fade-element">
         {/* <h3>Special Thanks</h3> */}
