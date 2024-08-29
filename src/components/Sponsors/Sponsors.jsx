@@ -7,13 +7,6 @@ import ev from "./ev.png";
 const Sponsors = () => {
   const observerRef = useRef(null);
 
-  const sponsors = [
-    { name: "x-lab", logo: uchicago },
-    { name: "effective ventures", logo: ev },
-    // { name: "AI Innovations", logo: hours },
-    // { name: "Data Dynamics", logo: "/api/placeholder/200/100" },
-  ];
-
   useEffect(() => {
     observerRef.current = new IntersectionObserver(
       (entries) => {
