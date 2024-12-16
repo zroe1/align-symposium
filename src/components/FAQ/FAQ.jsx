@@ -23,11 +23,6 @@ const FAQ = () => {
         "The symposium is an exclusive event for 30-40 of the most promising undergraduate students in the field of AI safety. Thus, we will select for applicants who have taken steps towards starting a career in AI Safety.",
     },
     {
-      question: "What is the purpose of the pre-conference memos?",
-      answer:
-        "The pre-conference memos serve to clarify attendees' current models of transformative AI. This preparation encourages self-reflection and readiness for constructive dialogue. It doesn't have to be perfect, but it should represent the participant's current belief state and demonstrate a willingness to be challenged.",
-    },
-    {
       question: "What kind of speakers can attendees expect?",
       answer:
         "We aim to invite around 8 speakers, covering areas such as technical AI safety, AI governance, and meta-level considerations. Our speakers will be selected for their generalist thinking, mentoring experience, and ability to prompt thoughtful conversation. We emphasize a 'scout mindset' approach, encouraging speakers to avoid unsubstantiated claims and engage in rigorous discourse.",
