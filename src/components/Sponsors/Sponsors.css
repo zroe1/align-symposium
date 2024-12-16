@@ -1,6 +1,7 @@
 .sponsors-container {
     /* background-color: #ffffff; */
-    background-color: #8d0f0f;
+    /* background-color: #8d0f0f; */
+    background-color: #f1f1f1;
     padding: 40px;
     /* margin-top: 30px; */
 }
@@ -12,7 +13,7 @@
     margin-bottom: 10px;
     margin-top: 0px;
     text-align: center;
-    color: #ffffff;
+    color: #000000;
 }
 
 .sponsors-divider-container {
@@ -25,7 +26,8 @@
 .sponsors-divider {
     width: 250px;
     height: 2px;
-    background-color: #8d0f0f;
+    /* background-color: #8d0f0f; */
+    background-color: black;
 }
 
 .sponsors-logos {
@@ -45,7 +47,7 @@
     margin: 0 auto;
     font-family: "Merriweather", serif;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .sponsors-thanks p {
