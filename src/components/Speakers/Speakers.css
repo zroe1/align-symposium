@@ -35,12 +35,12 @@
 }
 
 .speaker-card {
-    background-color: #ffffff;
+    background-color: #dfdfdf;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    height: 160px;  /* Fixed height for consistent card sizes */
+    height: 180px;  /* Increased height to accommodate affiliations */
 }
 
 .speaker-card:hover {
@@ -53,8 +53,8 @@
 }
 
 .speaker-image-container {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     flex-shrink: 0;
 }
 
@@ -75,12 +75,18 @@
     font-family: "Merriweather", serif;
     font-size: 24px;
     margin: 0 0 8px 0;
-    color: #333333;
+    color: #000000;
 }
 
 .speaker-role {
     font-size: 18px;
     color: #666666;
+    margin: 0 0 4px 0;
+}
+
+.speaker-affiliation {
+    font-size: 16px;
+    color: #680c0c;
     margin: 0;
 }
 
@@ -92,26 +98,46 @@
 .workshop-content {
     padding: 24px;
     width: 100%;
+    /* text-align: center; */
 }
 
 .workshop-title {
     font-family: "Merriweather", serif;
-    font-size: 24px;
-    color: #333333;
+    font-size: 23px;
+    color: #000000;
     margin: 0 0 12px 0;
 }
 
+.facilitator-info {
+    margin-bottom: 12px;
+}
+
 .facilitator-names {
-    font-size: 20px;
-    color: #666666;
-    margin: 0 0 8px 0;
+    font-size: 19px;
+    color: #000000;
+    margin: 0 0 4px 0;
+}
+
+.facilitator-affiliations {
+    font-size: 16px;
+    color: #680c0c;
+    margin: 0;
 }
 
 .workshop-note {
-    font-size: 16px;
+    font-size: 15px;
     font-style: italic;
-    color: #888888;
+    color: #626262;
     margin: 0;
+}
+
+.speakers-note {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 30px;
+    opacity: 0.9;
 }
 
 /* Animation classes */
@@ -133,6 +159,10 @@
 
 .speakers-grid .speaker-card:nth-child(2) {
     transition-delay: 0.2s;
+}
+
+.speakers-note {
+    transition-delay: 0.3s;
 }
 
 @media (max-width: 640px) {
@@ -157,5 +187,11 @@
     
     .workshop-content {
         text-align: center;
+        padding: 24px;
+    }
+    
+    .speakers-note {
+        margin-top: 24px;
+        padding: 0 20px;
     }
 }
