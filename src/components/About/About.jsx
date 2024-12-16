@@ -46,11 +46,11 @@ const About = () => {
         </h2>
         <div className="marroon-divider fade-element" id="about-divider-desktop"></div>
         <p className="about-text fade-element">
-          The Chicago Symposium on Transformative AI is a two-day event taking place on November
-          9-10, 2024, at the David Rubenstein Forum at the University of Chicago. We invite 30-40 of
-          the most promising undergraduate students in the field of AI safety. Over a weekend,
-          students will be immersed in an intellectually vibrant and professional atmosphere, hear
-          from speakers in technical and governance, and collaborate with like-minded peers.
+          The Chicago Symposium on Transformative AI is a two-day event taking place on March 29-30,
+          2025, at the David Rubenstein Forum at the University of Chicago. We invite 30-40 of the
+          most promising undergraduate students in the field of AI safety. Over a weekend, students
+          will be immersed in an intellectually vibrant and professional atmosphere, hear from
+          speakers in technical and governance, and collaborate with like-minded peers.
         </p>
         <p className="about-text fade-element">
           Our belief is that students committed to work on AI Safety should think independently

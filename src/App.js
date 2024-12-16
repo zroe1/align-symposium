@@ -6,6 +6,7 @@ import FAQ from "./components/FAQ/FAQ";
 import Footer from "./components/Footer/Footer";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Register from "./components/Register/Register";
+import Speakers from "./components/Speakers/Speakers";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header></Header>
       <About></About>
       <HowWeAreDifferent></HowWeAreDifferent>
+      <Speakers></Speakers>
       <Register></Register>
       <Sponsors></Sponsors>
       <FAQ></FAQ>

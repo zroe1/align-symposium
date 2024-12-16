@@ -38,11 +38,10 @@ const HowWeAreDifferent = () => {
       </div>
       <ol>
         <li className="fade-element">
-          <b>Pre-Conference Preparation:</b> We will have attendees submit written memos outlining
-          their current models of transformative AI, encouraging self-reflection and readiness for
-          constructive dialogue. These will not be project ideas; we don’t want the focus to be
-          defending priors; rather, we want participants to freely explore ideas while having a
-          tangible object to center discussions.
+          <b>Pre-Conference Preparation:</b> Our aim is to build shared context among participants
+          to facilitate constructive dialogue about TAI models. In service of this goal, we will
+          require attendees to have read the work of a few of the speakers. This will allow speaker
+          sessions to include much more (Chicago-style) interactive Q&A as well.
         </li>
         <li className="fade-element">
           <b>Focus on Challenging Assumptions:</b> We will foster a unique environment where
