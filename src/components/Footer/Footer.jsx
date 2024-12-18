@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <h3>Chicago Symposium on Transformative AI</h3>
-          <p>November 9-10, 2024</p>
+          <p>March 29-30, 2025</p>
           <p>David Rubenstein Forum, University of Chicago</p>
         </div>
         <div className="footer-section">
