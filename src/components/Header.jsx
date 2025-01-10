@@ -15,7 +15,7 @@ const Header = () => {
         id="smaller-header-img-mobile"
       />
       <div className="header-text-container">
-        <h1 className="header-text">Chicago Symposium on Transforative AI</h1>
+        <h1 className="header-text">Chicago Symposium on Transformative AI</h1>
         <p className="header-description">
           An intensive, two-day symposium where undergraduates come together to think rigorously
           about what to expect and what needs doing if AI starts the next industrial revolution.
