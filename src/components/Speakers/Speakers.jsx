@@ -1,6 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import "./Speakers.css";
 import michaelAird from "./michael_aird.png";
+import victor from "./victor.jpg";
+import ross from "./ross.jpeg";
+import thomas from "./thomas.jpeg";
+import jonas from "./jonas.jpeg";
+import daniel from "./daniel.jpg";
 
 const Speakers = () => {
   const observerRef = useRef(null);
@@ -52,7 +57,76 @@ const Speakers = () => {
           </div>
         </div>
 
-        <div className="speaker-card fade-element workshop-card">
+        <div className="speaker-card fade-element">
+          <div className="speaker-content">
+            <div className="speaker-image-container">
+              <img src={victor} alt="Victor Veitch" />
+            </div>
+            <div className="speaker-info">
+              <h3 className="speaker-name">Victor Veitch</h3>
+              {/* <p className="speaker-role">Keynote Speaker</p> */}
+              <p className="speaker-affiliation">University of Chicago / DeepMind</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="speaker-card fade-element">
+          <div className="speaker-content">
+            <div className="speaker-image-container">
+              <img src={ross} alt="Ross Nordby" />
+            </div>
+            <div className="speaker-info">
+              <h3 className="speaker-name">Ross Nordby</h3>
+              {/* <p className="speaker-role">Keynote Speaker</p> */}
+              <p className="speaker-affiliation">Anthropic</p>
+              <p className="speaker-note">Interactive scenario forecasting & timeline debate</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="speaker-card fade-element">
+          <div className="speaker-content">
+            <div className="speaker-image-container">
+              <img src={thomas} alt="Thomas Larsen" />
+            </div>
+            <div className="speaker-info">
+              <h3 className="speaker-name">Thomas Larsen*</h3>
+              {/* <p className="speaker-role">Keynote Speaker</p> */}
+              <p className="speaker-affiliation">AI Futures Project</p>
+              <p className="speaker-note">wargame simulation</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="speaker-card fade-element">
+          <div className="speaker-content">
+            <div className="speaker-image-container">
+              <img src={jonas} alt="Jonas Vollmer" />
+            </div>
+            <div className="speaker-info">
+              <h3 className="speaker-name">Jonas Vollmer*</h3>
+              {/* <p className="speaker-role">Keynote Speaker</p> */}
+              <p className="speaker-affiliation">AI Futures Project</p>
+              <p className="speaker-note">wargame simulation</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="speaker-card fade-element">
+          <div className="speaker-content">
+            <div className="speaker-image-container">
+              <img src={daniel} alt="Daniel Kokotajlo" />
+            </div>
+            <div className="speaker-info">
+              <h3 className="speaker-name">Daniel Kokotajlo*</h3>
+              {/* <p className="speaker-role">Keynote Speaker</p> */}
+              <p className="speaker-affiliation">AI Futures Project</p>
+              <p className="speaker-note">wargame simulation</p>
+            </div>
+          </div>
+        </div>
+
+        {/* <div className="speaker-card fade-element workshop-card">
           <div className="workshop-content">
             <h3 className="workshop-title">Workshop Facilitators</h3>
             <div className="facilitator-info">
@@ -63,11 +137,12 @@ const Speakers = () => {
             </div>
             <p className="workshop-note">Workshop details to be announced</p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="speakers-note fade-element">
-        <p>More speakers to be announced soon</p>
+        <p>*At least one of Thomas Larsen, Jonas Vollmer, and/or Daniel Kokotajlo will attend</p>
+        {/* <p>More speakers to be announced soon</p> */}
       </div>
     </div>
   );

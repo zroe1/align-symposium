@@ -28,9 +28,9 @@
 
 .speakers-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 24px;
-    max-width: 1000px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -131,6 +131,14 @@
     margin: 0;
 }
 
+.speaker-note {
+    font-size: 14px;
+    font-style: italic;
+    color: #626262;
+    margin-top: 5px;
+    /* margin: 0; */
+}
+
 .speakers-note {
     text-align: center;
     color: #ffffff;
@@ -165,7 +173,7 @@
     transition-delay: 0.3s;
 }
 
-@media (max-width: 640px) {
+/* @media (max-width: 640px) {
     .speaker-content {
         flex-direction: column;
         height: auto;
@@ -194,4 +202,4 @@
         margin-top: 24px;
         padding: 0 20px;
     }
-}
+} */
