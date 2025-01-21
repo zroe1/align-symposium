@@ -173,7 +173,17 @@
     transition-delay: 0.3s;
 }
 
-/* @media (max-width: 640px) {
+@media (max-width: 640px) {
+    
+    .speakers-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        gap: 24px;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+}
+/* 
     .speaker-content {
         flex-direction: column;
         height: auto;
