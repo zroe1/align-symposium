@@ -20,8 +20,10 @@ const Header = () => {
           An intensive, two-day symposium where undergraduates come together to think rigorously
           about what to expect and what needs doing if AI starts the next industrial revolution.
         </p>
-        <a href="https://forms.gle/effWSChju3fvCmAy9" className="header-button">
-          Fill out our interest form
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd5f0PaFaeFQs9BfyLH3SbaGPg7F_RTT5t-HCiy8xMUA33q6A/viewform?usp=sharing"
+          className="header-button">
+          Applications Due Feb 20, 2025
         </a>
       </div>
     </header>

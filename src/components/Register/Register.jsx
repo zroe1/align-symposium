@@ -38,15 +38,16 @@ const Register = () => {
       </div>
       <div className="registration-content">
         <p className="fade-element" style={{ fontSize: "18px" }}>
-          While it's too early to apply for the Chicago Symposium on Transformative AI, we encourage
-          you to express your interest now. By filling out our interest form, you'll be among the
-          first to know when applications open.
+          Applications are open now! The deadline for this application is Feb 20, 2025 (11:59 pm
+          AoE).
         </p>
         <p className="fade-element" style={{ fontSize: "18px", marginBottom: "25px" }}>
-          Don't miss this opportunity to be part of this exclusive event!
+          We will cover travel and accommodation costs if we admit you.
         </p>
-        <a href="https://forms.gle/effWSChju3fvCmAy9" className="interest-button fade-element">
-          Fill Out Interest Form
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd5f0PaFaeFQs9BfyLH3SbaGPg7F_RTT5t-HCiy8xMUA33q6A/viewform?usp=sharing"
+          className="interest-button fade-element">
+          Apply Now
         </a>
       </div>
     </div>
