@@ -32,7 +32,7 @@ const Register = () => {
 
   return (
     <div className="registration-container">
-      <h2 className="registration-title">Register Your Interest</h2>
+      <h2 className="registration-title">Apply Now</h2>
       <div className="registration-divider-container">
         <div className="registration-divider"></div>
       </div>
