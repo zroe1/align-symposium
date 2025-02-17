@@ -1,9 +1,9 @@
 .speakers-container {
     background-color: #8d0f0f;
     padding: 40px 20px;
-}
-
-.speakers-title {
+  }
+  
+  .speakers-title {
     font-family: "Merriweather", serif;
     font-weight: 600;
     font-size: 36px;
@@ -11,205 +11,178 @@
     margin-top: 0;
     text-align: center;
     color: #ffffff;
-}
-
-.speakers-divider-container {
+  }
+  
+  .speakers-divider-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-}
-
-.speakers-divider {
+  }
+  
+  .speakers-divider {
     width: 250px;
     height: 2px;
     background-color: #ffffff;
-}
-
-.speakers-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+  
+  /* Flexbox speakers grid */
+  .speakers-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
     max-width: 1300px;
     margin: 0 auto;
-}
-
-.speaker-card {
+  }
+  
+  .speaker-card {
     background-color: #dfdfdf;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     height: 180px;  /* Increased height to accommodate affiliations */
-}
-
-.speaker-card:hover {
+    flex: 0 0 400px; /* Fixed width for each card */
+  }
+  
+  .speaker-card:hover {
     transform: translateY(-5px);
-}
-
-.speaker-content {
+  }
+  
+  .speaker-content {
     display: flex;
     height: 100%;
-}
-
-.speaker-image-container {
+  }
+  
+  .speaker-image-container {
     width: 180px;
     height: 180px;
     flex-shrink: 0;
-}
-
-.speaker-image-container img {
+  }
+  
+  .speaker-image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-.speaker-info {
+  }
+  
+  .speaker-info {
     padding: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.speaker-name {
+  }
+  
+  .speaker-name {
     font-family: "Merriweather", serif;
     font-size: 24px;
     margin: 0 0 8px 0;
     color: #000000;
-}
-
-.speaker-role {
+  }
+  
+  .speaker-role {
     font-size: 18px;
     color: #666666;
     margin: 0 0 4px 0;
-}
-
-.speaker-affiliation {
+  }
+  
+  .speaker-affiliation {
     font-size: 16px;
     color: #680c0c;
     margin: 0;
-}
-
-.workshop-card {
+  }
+  
+  .workshop-card {
     display: flex;
     align-items: center;
-}
-
-.workshop-content {
+  }
+  
+  .workshop-content {
     padding: 24px;
     width: 100%;
     /* text-align: center; */
-}
-
-.workshop-title {
+  }
+  
+  .workshop-title {
     font-family: "Merriweather", serif;
     font-size: 23px;
     color: #000000;
     margin: 0 0 12px 0;
-}
-
-.facilitator-info {
+  }
+  
+  .facilitator-info {
     margin-bottom: 12px;
-}
-
-.facilitator-names {
+  }
+  
+  .facilitator-names {
     font-size: 19px;
     color: #000000;
     margin: 0 0 4px 0;
-}
-
-.facilitator-affiliations {
+  }
+  
+  .facilitator-affiliations {
     font-size: 16px;
     color: #680c0c;
     margin: 0;
-}
-
-.workshop-note {
+  }
+  
+  .workshop-note {
     font-size: 15px;
     font-style: italic;
     color: #626262;
     margin: 0;
-}
-
-.speaker-note {
+  }
+  
+  .speaker-note {
     font-size: 14px;
     font-style: italic;
     color: #626262;
     margin-top: 5px;
-    /* margin: 0; */
-}
-
-.speakers-note {
+  }
+  
+  .speakers-note {
     text-align: center;
     color: #ffffff;
     font-size: 18px;
     font-style: italic;
     margin-top: 30px;
     opacity: 0.9;
-}
-
-/* Animation classes */
-.fade-element {
+  }
+  
+  /* Animation classes */
+  .fade-element {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-}
-
-.fade-element.fade-in {
+  }
+  
+  .fade-element.fade-in {
     opacity: 1;
     transform: translateY(0);
-}
-
-/* Animation delays */
-.speakers-grid .speaker-card:nth-child(1) {
+  }
+  
+  /* Animation delays */
+  .speakers-grid .speaker-card:nth-child(1) {
     transition-delay: 0.1s;
-}
-
-.speakers-grid .speaker-card:nth-child(2) {
+  }
+  
+  .speakers-grid .speaker-card:nth-child(2) {
     transition-delay: 0.2s;
-}
-
-.speakers-note {
+  }
+  
+  .speakers-note {
     transition-delay: 0.3s;
-}
-
-@media (max-width: 640px) {
-    
+  }
+  
+  /* Responsive styles for mobile */
+  @media (max-width: 640px) {
     .speakers-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-        gap: 24px;
-        max-width: 1300px;
-        margin: 0 auto;
+      flex-direction: column;
+      align-items: center;
     }
-}
-/* 
-    .speaker-content {
-        flex-direction: column;
-        height: auto;
-    }
-    
     .speaker-card {
-        height: auto;
+      flex: 0 0 100%;
+      max-width: 100%;
     }
-    
-    .speaker-image-container {
-        width: 100%;
-        height: 200px;
-    }
-    
-    .speaker-info {
-        text-align: center;
-        padding: 20px;
-    }
-    
-    .workshop-content {
-        text-align: center;
-        padding: 24px;
-    }
-    
-    .speakers-note {
-        margin-top: 24px;
-        padding: 0 20px;
-    }
-} */
+  }

@@ -6,6 +6,7 @@ import ross from "./ross.jpeg";
 import thomas from "./thomas.jpeg";
 import jonas from "./jonas.jpeg";
 import daniel from "./daniel.jpg";
+import charlie from "./charlie.jpg";
 
 const Speakers = () => {
   const observerRef = useRef(null);
@@ -80,6 +81,20 @@ const Speakers = () => {
               {/* <p className="speaker-role">Keynote Speaker</p> */}
               <p className="speaker-affiliation">Anthropic</p>
               <p className="speaker-note">Interactive scenario forecasting & timeline debate</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="speaker-card fade-element">
+          <div className="speaker-content">
+            <div className="speaker-image-container">
+              <img src={charlie} alt="Charlie Bullock" />
+            </div>
+            <div className="speaker-info">
+              <h3 className="speaker-name">Charlie Bullock</h3>
+              {/* <p className="speaker-role">Keynote Speaker</p> */}
+              <p className="speaker-affiliation">LawAI</p>
+              {/* <p className="speaker-note">Interactive scenario forecasting & timeline debate</p> */}
             </div>
           </div>
         </div>
