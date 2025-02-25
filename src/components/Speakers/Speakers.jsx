@@ -105,7 +105,7 @@ const Speakers = () => {
               <img src={thomas} alt="Thomas Larsen" />
             </div>
             <div className="speaker-info">
-              <h3 className="speaker-name">Thomas Larsen*</h3>
+              <h3 className="speaker-name">Thomas Larsen</h3>
               {/* <p className="speaker-role">Keynote Speaker</p> */}
               <p className="speaker-affiliation">AI Futures Project</p>
               <p className="speaker-note">wargame simulation</p>
@@ -113,14 +113,14 @@ const Speakers = () => {
           </div>
         </div>
 
-        <div className="speaker-card fade-element">
+        {/* <div className="speaker-card fade-element">
           <div className="speaker-content">
             <div className="speaker-image-container">
               <img src={jonas} alt="Jonas Vollmer" />
             </div>
             <div className="speaker-info">
               <h3 className="speaker-name">Jonas Vollmer*</h3>
-              {/* <p className="speaker-role">Keynote Speaker</p> */}
+
               <p className="speaker-affiliation">AI Futures Project</p>
               <p className="speaker-note">wargame simulation</p>
             </div>
@@ -134,12 +134,12 @@ const Speakers = () => {
             </div>
             <div className="speaker-info">
               <h3 className="speaker-name">Daniel Kokotajlo*</h3>
-              {/* <p className="speaker-role">Keynote Speaker</p> */}
+
               <p className="speaker-affiliation">AI Futures Project</p>
               <p className="speaker-note">wargame simulation</p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* <div className="speaker-card fade-element workshop-card">
           <div className="workshop-content">
@@ -156,7 +156,7 @@ const Speakers = () => {
       </div>
 
       <div className="speakers-note fade-element">
-        <p>*At least one of Thomas Larsen, Jonas Vollmer, and/or Daniel Kokotajlo will attend</p>
+        {/* <p>*At least one of Thomas Larsen, Jonas Vollmer, and/or Daniel Kokotajlo will attend</p> */}
         {/* <p>More speakers to be announced soon</p> */}
       </div>
     </div>
