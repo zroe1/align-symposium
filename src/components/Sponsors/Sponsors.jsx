@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import "./Sponsors.css";
 import uchicago from "./uchicago.png";
 // import hours from "./80000.webp";
+import op from "./op.png";
 import ev from "./ev.png";
 
 const Sponsors = () => {
@@ -45,6 +46,9 @@ const Sponsors = () => {
         </div>
         <div key={"effective ventures"} className="sponsor-logo fade-element">
           <img src={ev} alt={`effective ventures`} />
+        </div>
+        <div key={"open philanthropy"} className="sponsor-logo fade-element">
+          <img src={op} alt={`open philanthropy`} />
         </div>
       </div>
       <div className="sponsors-thanks fade-element">
