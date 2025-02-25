@@ -4,9 +4,10 @@ import michaelAird from "./michael_aird.png";
 import victor from "./victor.jpg";
 import ross from "./ross.jpeg";
 import thomas from "./thomas.jpeg";
-import jonas from "./jonas.jpeg";
-import daniel from "./daniel.jpg";
+// import jonas from "./jonas.jpeg";
+// import daniel from "./daniel.jpg";
 import charlie from "./charlie.jpg";
+import jessica from "./jessica.jpeg";
 
 const Speakers = () => {
   const observerRef = useRef(null);
@@ -67,6 +68,19 @@ const Speakers = () => {
               <h3 className="speaker-name">Victor Veitch</h3>
               {/* <p className="speaker-role">Keynote Speaker</p> */}
               <p className="speaker-affiliation">University of Chicago / DeepMind</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="speaker-card fade-element">
+          <div className="speaker-content">
+            <div className="speaker-image-container">
+              <img src={jessica} alt="Jessica Hullman" />
+            </div>
+            <div className="speaker-info">
+              <h3 className="speaker-name">Jessica Hullman</h3>
+              {/* <p className="speaker-role">Keynote Speaker</p> */}
+              <p className="speaker-affiliation">Northwestern University</p>
             </div>
           </div>
         </div>
